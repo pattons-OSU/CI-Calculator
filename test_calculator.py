@@ -17,3 +17,9 @@ class TestCalculatorApp:
 
     def test_subtract(self):
         assert 2 == calculator.subtract(5, 3)
+
+    def test_multiply(self):
+        assert 20 == calculator.multiply(10, 2)
+
+    def test_divide(self):
+        assert 7 == calculator.divide(14, 2)
